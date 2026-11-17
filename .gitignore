@@ -1,0 +1,22 @@
+# Gradle & Kotlin caches
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Local environment & IDE files
+local.properties
+.idea/
+*.iml
+.cxx/
+captures/
+*.hprof
+
+# OS / temporary artifacts
+.DS_Store
+Thumbs.db
+backups/
+
+# Keep Gradle wrapper executable & jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fondo completo para uso directo en UI -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="48"
+                android:gradientRadius="72"
+                android:type="radial">
+                <item android:color="#FF11294B" android:offset="0.0" />
+                <item android:color="#FF091629" android:offset="0.65" />
+                <item android:color="#FF050B14" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14 Z"
+        android:strokeAlpha="0.28"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.0" />
+
+    <!-- Brazos en X -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M31,31 L77,77 M77,31 L31,77"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M31,31 L77,77 M77,31 L31,77"
+        android:strokeColor="#E2E8F0"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.8" />
+
+    <!-- 4 Hélices -->
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.16" android:pathData="M30,18 A12,12 0 1,1 29.99,18 Z" />
+    <path android:fillColor="#00000000" android:pathData="M20.2,24 A12,12 0 0,1 40.0,23.2" android:strokeColor="#38BDF8" android:strokeLineCap="round" android:strokeWidth="2.2" />
+    <path android:fillColor="#00000000" android:pathData="M39.6,36 A12,12 0 0,1 20.0,36.2" android:strokeColor="#7DD3FC" android:strokeLineCap="round" android:strokeWidth="1.5" />
+    <path android:fillColor="#F8FAFC" android:pathData="M30,27.3 A2.7,2.7 0 1,1 29.99,27.3 Z" />
+
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.16" android:pathData="M78,18 A12,12 0 1,1 77.99,18 Z" />
+    <path android:fillColor="#00000000" android:pathData="M68.0,23.2 A12,12 0 0,1 87.8,24" android:strokeColor="#38BDF8" android:strokeLineCap="round" android:strokeWidth="2.2" />
+    <path android:fillColor="#00000000" android:pathData="M88.0,36.2 A12,12 0 0,1 68.4,36" android:strokeColor="#7DD3FC" android:strokeLineCap="round" android:strokeWidth="1.5" />
+    <path android:fillColor="#F8FAFC" android:pathData="M78,27.3 A2.7,2.7 0 1,1 77.99,27.3 Z" />
+
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.14" android:pathData="M30,66 A12,12 0 1,1 29.99,66 Z" />
+    <path android:fillColor="#00000000" android:pathData="M20.0,71.8 A12,12 0 0,1 39.6,72" android:strokeColor="#38BDF8" android:strokeLineCap="round" android:strokeWidth="2.0" />
+    <path android:fillColor="#00000000" android:pathData="M40.0,84.8 A12,12 0 0,1 20.2,84" android:strokeColor="#7DD3FC" android:strokeLineCap="round" android:strokeWidth="1.4" />
+    <path android:fillColor="#F8FAFC" android:pathData="M30,75.3 A2.7,2.7 0 1,1 29.99,75.3 Z" />
+
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.14" android:pathData="M78,66 A12,12 0 1,1 77.99,66 Z" />
+    <path android:fillColor="#00000000" android:pathData="M68.4,72 A12,12 0 0,1 88.0,71.8" android:strokeColor="#38BDF8" android:strokeLineCap="round" android:strokeWidth="2.0" />
+    <path android:fillColor="#00000000" android:pathData="M87.8,84 A12,12 0 0,1 68.0,84.8" android:strokeColor="#7DD3FC" android:strokeLineCap="round" android:strokeWidth="1.4" />
+    <path android:fillColor="#F8FAFC" android:pathData="M78,75.3 A2.7,2.7 0 1,1 77.99,75.3 Z" />
+
+    <!-- Fuselaje Bebop 2 -->
+    <path android:pathData="M54,24 C60.6,24 64.4,30 64.4,39 L63.5,71 C63.5,77.6 59.8,82.5 54,82.5 C48.2,82.5 44.5,77.6 44.5,71 L43.6,39 C43.6,30 47.4,24 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="54"
+                android:endY="82.5"
+                android:startX="54"
+                android:startY="24"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFCBD5E1" android:offset="0.55" />
+                <item android:color="#FF1E293B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,29 C57.6,29 60.0,32.6 60.0,39 L59.4,63.5 C59.4,66.6 57.1,68.6 54,68.6 C50.9,68.6 48.6,66.6 48.6,63.5 L48.0,39 C48.0,32.6 50.4,29 54,29 Z" />
+
+    <!-- Lente frontal -->
+    <path android:fillColor="#0EA5E9" android:pathData="M54,29.8 A5.0,5.0 0 1,1 53.99,29.8 Z" />
+    <path android:fillColor="#082F49" android:pathData="M54,32.0 A2.8,2.8 0 1,1 53.99,32.0 Z" />
+    <path android:fillColor="#E0F2FE" android:pathData="M52.6,32.5 A1.1,1.1 0 1,1 52.59,32.5 Z" />
+
+    <!-- Chevrones HUD -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50.5,47.5 L54,43.5 L57.5,47.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50.5,55.0 L54,51.0 L57.5,55.0"
+        android:strokeAlpha="0.65"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.6" />
+
+    <!-- Cola roja -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M49.6,73.5 L58.4,73.5 C59.5,73.5 60.0,74.5 59.6,75.8 C58.8,78.0 56.7,79.6 54,79.6 C51.3,79.6 49.2,78.0 48.4,75.8 C48.0,74.5 48.5,73.5 49.6,73.5 Z" />
+</vector>
